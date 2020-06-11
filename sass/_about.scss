@@ -1,0 +1,23 @@
+.about {
+  display: grid;
+  // margin-top: 5rem;
+  // margin-bottom: 5rem;
+  margin: auto;
+  padding: 5rem 3rem;
+  text-align: center;
+  grid-template-columns: minmax(300px, 600px);
+  grid-template-rows: repeat(2, min-content);
+
+  &__heading {
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    margin-bottom: 2rem;
+  }
+
+  &__text {
+    font-size: 1.4rem;
+    margin: auto;
+  }
+}
